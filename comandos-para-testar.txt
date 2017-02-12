@@ -1,0 +1,4 @@
+INSERIR PAGAMENTO - curl -X POST http://localhost:3000/pagamentos/pagamento -H "Content-type: application/json" -d @files/pagamentos.json -v; echo
+CONSULTAR PAGAMENTO - curl -X GET http://localhost:3000/pagamentos/pagamento/id -v | json_pp
+ALTERAR PAGAMENTO  - curl -X PUT  http://localhost:3000/pagamentos/pagamento/id -v | json_pp
+DELETAR PAGAMENTO - curl -X DELETE  http://localhost:3000/pagamentos/pagamento/id -v |json_pp

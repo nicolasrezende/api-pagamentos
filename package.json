@@ -1,0 +1,29 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "gateway de pagamentos utilizando recursos do http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index"
+  },
+  "keywords": [
+    "api",
+    "gateway",
+    "javascript"
+  ],
+  "author": "Nicolas Rezende",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "consign": "^0.1.2",
+    "express": "^4.14.1",
+    "express-validator": "^3.1.2",
+    "memcached": "^2.2.2",
+    "morgan": "^1.8.1",
+    "mysql": "^2.13.0",
+    "restify": "^4.3.0",
+    "soap": "^0.18.0",
+    "winston": "^2.3.1"
+  }
+}

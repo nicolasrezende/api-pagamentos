@@ -1,0 +1,9 @@
+CREATE TABLE pagamento(
+  id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  forma_pagamento VARCHAR(100) NOT NULL,
+  valor DECIMAL(10,2) NOT NULL,
+  moeda VARCHAR(3) NOT NULL,
+  descricao VARCHAR(100) NOT NULL,
+  status VARCHAR(20) NOT NULL,
+  data DATE
+);

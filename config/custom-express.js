@@ -25,7 +25,8 @@ module.exports = function() {
     app.use(expresValidator());
 
     consign().
-    include('routes').
+    include('controllers').
+    then('routes').
     then('persistencia').
     then('servicos').
     into(app);
